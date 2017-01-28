@@ -21,6 +21,7 @@ import scala.concurrent.duration._
 class AsyncController @Inject() (actorSystem: ActorSystem)(implicit exec: ExecutionContext) extends Controller {
 
   /**
+    *
    * Create an Action that returns a plain text message after a delay
    * of 1 second.
    *
